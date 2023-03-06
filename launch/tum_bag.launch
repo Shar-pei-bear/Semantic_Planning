@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+
+  <node pkg="rosbag" type="play" name="player" output="screen" args="/home/bear/data/TUM_orig/BackUp/rgbd_dataset_freiburg2_desk.bag --clock -q -d 5">
+  </node>
+
+</launch>

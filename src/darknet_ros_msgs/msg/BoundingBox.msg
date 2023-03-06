@@ -1,0 +1,9 @@
+float64 probability
+int64 xmin
+int64 ymin
+int64 xmax
+int64 ymax
+int16 id
+int16 object_id
+string Class
+float32[] Class_distribution

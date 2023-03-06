@@ -1,0 +1,6 @@
+<launch>
+
+  <node pkg="rosbag" type="play" name="player" output="screen" args="/home/bear/data/ViViD/indoor_robust_global.bag --clock -q -d 5">
+  </node>
+
+</launch>

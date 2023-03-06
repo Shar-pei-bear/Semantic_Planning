@@ -1,0 +1,3 @@
+int8 data
+sensor_msgs/Image image
+BoundingBoxes bounding_boxes_results

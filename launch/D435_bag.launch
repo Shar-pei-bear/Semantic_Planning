@@ -1,0 +1,6 @@
+<launch>
+
+  <node pkg="rosbag" type="play" name="player" output="screen" args="/home/bear/data/D435i/ros_d435i_walk_around.bag --clock -q -d 5">
+  </node>
+
+</launch>
