@@ -469,7 +469,7 @@ class Planner:
     def run(self):
         while not rospy.is_shutdown():
             if self.obstacle_map is not None and not self.initial_obs and not self.mission_status:
-                pos_grid = np.asarray(self.to_grid(self.pos))
+                pos_grid = np.asarray(self.to_grid_old(self.pos))
                 # if self.grid_map_grey[pos_grid[1], pos_grid[0]] != 255:
                 #     print('replan because hit obstacles')
                 #     self.replan = True
